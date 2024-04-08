@@ -1,0 +1,17 @@
+.btn-success:hover
+{
+    background-color: rgb(255, 196, 0);
+}
+
+canvas
+{
+    animation-name: rainbow;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rainbow
+{
+    from{box-shadow: 1px 1px 20px pink;}
+    to{box-shadow: 1px 1px 20px yellow;}
+}
